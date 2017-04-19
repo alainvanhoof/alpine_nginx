@@ -21,26 +21,26 @@ Example Playbook
 ----------------
 
 Install nginx with a index.html page on port 80
-
+```yaml
 - hosts: dev-nginx-01
   become: true
   roles:
     - { role: alpine_nginx }
-
+```
 Install nginx with php5, a index.html and index.php (with phpinfo) on port 80
-
+```yaml
 - hosts: dev-nginx-02
   become: true
   roles:
     - { role: alpine_nginx, php5: yes }
-
+```
 Install nginx with php7, a index.html and index.php (with phpinfo) on port 80
-
+```yaml
 - hosts: dev-nginx-03
   become: true
   roles:
     - { role: alpine_nginx, php7: yes }
-
+```
 
 License
 -------
