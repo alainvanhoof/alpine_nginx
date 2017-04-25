@@ -1,7 +1,7 @@
 Role Name
 =========
 
-This role creates a running nginx instance with an option to install php5/php7 served by hph-fpm
+This role creates a running nginx instance with an option to install php5/php7 served by php-fpm
 
 Requirements
 ------------
